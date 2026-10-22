@@ -1,4 +1,6 @@
-# Аватарки «Профілю» (BIG-40): джерела й ліцензії
+# Іконки в чаті (BIG-40, «Профіль» → «Оформлення» → «Іконка в чаті»): джерела й ліцензії
+
+Картинка біля повідомлень гравця в чаті Unturned (iconURL). Файли — `avatars/<id>.png` (назва теки історична).
 
 Усі файли — 256×256 PNG, коло з прозорими кутами, ≤ 40 КБ (quantize). Хостинг: `https://alexanderborysenko.github.io/potuzhnyi-icons/avatars/<id>.png`.
 Збірка: рендери гри `-executeMethod PotuzhnyiAvatars.Render` (`mod/unity/Build/Avatars`) + скрипт композиції (коло з палітри, кроп фото, quantize) — див. рядок у `docs/gotchas.md` / `docs/STATE.md`.
